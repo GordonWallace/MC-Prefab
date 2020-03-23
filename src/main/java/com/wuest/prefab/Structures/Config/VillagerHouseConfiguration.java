@@ -94,7 +94,9 @@ public class VillagerHouseConfiguration extends StructureConfiguration {
 		BLACKSMITH(3, GuiLangKeys.VILLAGER_HOUSE_BLACKSMITH, new ResourceLocation("prefab", "textures/gui/village_house_blacksmith.png"), 157, 73,
 				"assets/prefab/structures/villager_house_blacksmith.zip", 7, 5, 6, 5),
 		LONG_HOUSE(4, GuiLangKeys.VILLAGER_HOUSE_LONGHOUSE, new ResourceLocation("prefab", "textures/gui/village_house_long.png"), 157, 114,
-				"assets/prefab/structures/villager_house_long.zip", 8, 6, 7, 4);
+				"assets/prefab/structures/villager_house_long.zip", 8, 6, 7, 4),
+		FLAT_ROOF_DESERT(5, GuiLangKeys.VILLAGER_HOUSE_FLAT_ROOF_DESERT, new ResourceLocation("prefab", "textures/gui/village_house_flat.png"), 165, 128,
+				"assets/prefab/structures/villager_house_flat_desert.zip", 4, 5, 5, 2);
 
 		private final int value;
 		private final String displayName;
@@ -137,6 +139,10 @@ public class VillagerHouseConfiguration extends StructureConfiguration {
 
 				case 4: {
 					return HouseStyle.LONG_HOUSE;
+				}
+
+				case 5: {
+					return HouseStyle.FLAT_ROOF_DESERT;
 				}
 
 				default: {

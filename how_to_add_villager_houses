@@ -1,0 +1,4 @@
+Create new zip file (src/resources/assets/prefab/structures/)
+Update src/main/java/com/wuest/prefab/Structures/Config/VillagerHouseConfiguration.java
+Add to GUI (src/main/java/com/wuest/prefab/Gui/GuiLangKeys.java)
+Add pic  (src/resources/textures/gui)

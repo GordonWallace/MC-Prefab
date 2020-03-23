@@ -274,6 +274,9 @@ public class GuiLangKeys {
 	@Unlocalized(name = "Long House")
 	public static final String VILLAGER_HOUSE_LONGHOUSE = "prefab.gui.villager.long_house";
 
+	@Unlocalized(name = "Flat Roof Desert")
+	public static final String VILLAGER_HOUSE_FLAT_ROOF_DESERT = "prefab.gui.villager.house.flat_desert";
+
 	@Unlocalized(name = "Spruce House")
 	public static final String MODERATE_HOUSE_SPRUCE = "prefab.gui.moderate_house.spruce";
 
