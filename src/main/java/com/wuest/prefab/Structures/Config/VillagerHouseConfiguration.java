@@ -97,7 +97,7 @@ public class VillagerHouseConfiguration extends StructureConfiguration {
 				"assets/prefab/structures/villager_house_long.zip", 8, 6, 7, 4),
 		FLAT_ROOF_DESERT(5, GuiLangKeys.VILLAGER_HOUSE_FLAT_ROOF_DESERT, new ResourceLocation("prefab", "textures/gui/village_house_flat.png"), 165, 128,
 				"assets/prefab/structures/villager_house_flat_desert.zip", 4, 5, 5, 2),
-		TERRACOTTA(6, GuiLangKeys.VILLAGER_HOUSE_TERRACOTTA, new ResourceLocation("prefab", "textures/gui/village_house_flat.png"), 165, 128,
+		TERRACOTTA(6, GuiLangKeys.VILLAGER_HOUSE_TERRACOTTA, new ResourceLocation("prefab", "textures/gui/village_house_terracotta.png"), 170, 138,
 				"assets/prefab/structures/villager_house_terracotta.zip", 4, 5, 5, 2);
 
 		private final int value;
