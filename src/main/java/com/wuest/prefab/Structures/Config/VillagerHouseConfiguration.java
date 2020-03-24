@@ -95,10 +95,12 @@ public class VillagerHouseConfiguration extends StructureConfiguration {
 				"assets/prefab/structures/villager_house_blacksmith.zip", 7, 5, 6, 5),
 		LONG_HOUSE(4, GuiLangKeys.VILLAGER_HOUSE_LONGHOUSE, new ResourceLocation("prefab", "textures/gui/village_house_long.png"), 157, 114,
 				"assets/prefab/structures/villager_house_long.zip", 8, 6, 7, 4),
-		FLAT_ROOF_DESERT(5, GuiLangKeys.VILLAGER_HOUSE_FLAT_ROOF_DESERT, new ResourceLocation("prefab", "textures/gui/village_house_flat.png"), 165, 128,
+		FLAT_ROOF_DESERT(5, GuiLangKeys.VILLAGER_HOUSE_FLAT_ROOF_DESERT, new ResourceLocation("prefab", "textures/gui/village_house_flat_desert.png"), 165, 128,
 				"assets/prefab/structures/villager_house_flat_desert.zip", 4, 5, 5, 2),
 		TERRACOTTA(6, GuiLangKeys.VILLAGER_HOUSE_TERRACOTTA, new ResourceLocation("prefab", "textures/gui/village_house_terracotta.png"), 170, 138,
-				"assets/prefab/structures/villager_house_terracotta.zip", 4, 5, 5, 2);
+				"assets/prefab/structures/villager_house_terracotta.zip", 4, 5, 5, 2),
+		TERRACOTTA_RY(7, GuiLangKeys.VILLAGER_HOUSE_TERRACOTTA_RY, new ResourceLocation("prefab", "textures/gui/village_house_terracotta_2.png"), 170, 138,
+				"assets/prefab/structures/villager_house_terracotta_ry.zip", 4, 5, 5, 2);
 
 		private final int value;
 		private final String displayName;
@@ -149,6 +151,10 @@ public class VillagerHouseConfiguration extends StructureConfiguration {
 
 				case 6: {
 					return HouseStyle.TERRACOTTA;
+				}
+
+				case 7: {
+					return HouseStyle.TERRACOTTA_RY;
 				}
 
 				default: {
